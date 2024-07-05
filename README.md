@@ -15,8 +15,8 @@ Currently, two official plugins are available:
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [Deploy on Vercel](#deploy)
+- [Features](#Features)
+
 
 ## <a id='getting-started'></a> Getting Started
  
@@ -50,22 +50,12 @@ To start the Vite + React.js development server, run:
 ```
 
 - Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-- You can start editing the page by modifying `pages/<anyfile>.js`. The page auto-updates as you edit the file.
 
 
-## <a id='folder-structure'></a> Folder Structure
 
-The project's folder structure is as follows:
-```sh
-  Echio/
-  ├── public/                 # Public assets (e.g., images)
-  ├── components/             # React components
-  ├── pages/                  # React.js pages                 
-  ├── README.md               # This README file
-  ├── package.json            # Node.js project configuration
-  ├── .gitignore              # Git ignore file
- 
-```
+## <a id='Features'></a> Features:
+
+-It allows the user to filter influencers based on the average likes they get on their posts. User can filter by checking the ranges or creating a custom range by dragging the bar or directly writing in inputs
 
 
 
