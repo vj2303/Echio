@@ -1,0 +1,40 @@
+:root {
+  --sea-green: #2DA9B2;
+  --light-sea-green: rgb(188, 236, 240);
+  --grey: rgb(209, 213, 219);
+  --dark-grey: rgb(153, 155, 159);
+  --light-grey: #ececec;
+  --white: #fff;
+  --blue: #1976D2;
+  --base-text: 14px;
+  --sm-text: 13px;
+  --md-text: 16px;
+  --lg-text: 18px;
+  --xl-text: 20px;
+  --2xl-text: 28px;
+}
+
+
+.slider .rc-slider-track {
+  height: 8px;
+  /* Adjust track thickness */
+  background-color: var(--sea-green);
+  /* Track color */
+}
+
+.slider .rc-slider-handle {
+  width: 20px;
+  /* Adjust handle thickness */
+  height: 20px;
+  /* Adjust handle thickness */
+  border-color: var(--sea-green);
+  /* Handle border color */
+  background-color: var(--sea-green);
+  /* Handle background color */
+}
+
+.slider .rc-slider-handle:focus,
+.slider .rc-slider-handle:hover {
+  border-color: var(--sea-green);
+  /* Handle color on focus or hover */
+}
